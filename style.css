@@ -6,7 +6,7 @@
     --light-blue: #e7f1ff;
     --text-dark: #212529;
     --text-muted: #6c757d;
-    --bg-white: #ffffff;
+    --bg-white: #f8f9fa;
     --transition: all 0.3s ease;
 }
 
@@ -25,7 +25,7 @@ body {
 /* Navigator Styling */
 .navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.95) !important;
+    background-color: rgba(212, 228, 238, 0.95) !important;
     backdrop-filter: blur(10px);
 }
 
@@ -110,4 +110,9 @@ h1, h2, h3 {
     background-color: var(--light-blue) !important;
     color: var(--primary-blue) !important;
     border: 1px solid rgba(0, 86, 179, 0.1);
+}
+
+footer a:hover {
+    color: var(--primary-blue) !important;
+    transition: var(--transition);
 }
