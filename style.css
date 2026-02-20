@@ -12,11 +12,11 @@
 
 /* Global Styles */
 html {
-    scroll-behavior: smooth; /* Smooth scroll behavior requirement [cite: 29] */
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Inter', sans-serif; /* Custom font requirement  */
+    font-family: 'Inter', sans-serif;
     color: var(--text-dark);
     line-height: 1.6;
     background-color: var(--bg-white);
@@ -41,7 +41,7 @@ body {
 
 /* Section Spacing */
 section {
-    padding: 80px 0; /* Clear visual hierarchy for sections [cite: 27] */
+    padding: 80px 0;
 }
 
 h1, h2, h3 {
@@ -54,15 +54,14 @@ h1, h2, h3 {
     border: none;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    transition: var(--transition); /* Hover effect requirement  */
+    transition: var(--transition);
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Interaction visual cue */
+    transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 86, 179, 0.1);
 }
 
-/* Skills: Scale bar configuration [cite: 32, 43] */
 .progress {
     height: 10px;
     background-color: var(--light-blue);
@@ -89,7 +88,6 @@ h1, h2, h3 {
     box-shadow: 0 5px 15px rgba(0, 86, 179, 0.3);
 }
 
-/* Portfolio Carousel: Image formatting [cite: 33, 43] */
 .carousel-item img {
     border-radius: 15px;
     object-fit: cover;
